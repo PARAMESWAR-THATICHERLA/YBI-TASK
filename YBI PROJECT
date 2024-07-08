@@ -1,0 +1,30 @@
+# python program to calculate the grade of student
+print("Enter 'x' for Exit")
+print ('Enter Scores Obtained in 5 Subjects :')
+score1=input()
+if score1=='x':
+    exit();
+else:
+  score1 =int(score1)
+  score2 =int(input())
+  score3 =int(input())
+  score4 =int(input())
+  score5 =int(input())
+  sum = score1+score2+score3+score4+score5
+  avg=sum/5
+  if (avg>=91 and avg<=100):
+     print('Overall Grade is : A+')
+  elif (avg>=81 and avg<=90):
+     print('Overall Grade is : A')
+  elif (avg>=71 and avg<=80):
+     print('Overall Grade is : B+')
+  elif (avg>=61 and avg<=70):
+     print('Overall Grade is : B')
+  elif (avg>=51 and avg<=60):
+     print('Overall Grade is : C')
+  elif (avg>=41 and avg<=50):
+     print('Overall Grade is : D')
+  elif (avg>=0 and avg<=40):
+     print('Overall Grade is : F')
+  else:
+     print('Invalid Input...! ')
