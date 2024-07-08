@@ -1,0 +1,22 @@
+Title of the project :- BASIC CALCULATOR
+objective:- To create a basic calculator that performs addition,substraction,multiplication,division operations.
+Describe data:- The data consist of two numbers and an operator provided by the user.
+CODE:-
+
+# Python programm for Basic Calculator 
+first_num=float(input("please enter first number:"))
+operator= input("please enter operator")
+second_num=float(input("please enter second number:"))
+
+if operator =="+":
+    print(first_num + second_num)
+elif operator == "-":
+    print(first_num - second_num)
+elif operator == "*":
+    print(first_num * second_num)
+elif operator == "/":
+    print(first_num / second_num)
+elif operator == "%":
+    print(first_num % second_num)
+else:
+    print("Invalid Oerator")
